@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="2">
-  <diagram name="Page-1" id="B-uzobbl4Og3ccgbKgkS">
-    <mxGraphModel dx="8527" dy="2243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Init Section" id="B-uzobbl4Og3ccgbKgkS">
+    <mxGraphModel dx="6999" dy="1281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,8 +87,8 @@
         <mxCell id="NJ-oHcCMahYkHnb02j0Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-18" target="NJ-oHcCMahYkHnb02j0Y-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1543" y="1410" />
-              <mxPoint x="-1543" y="1410" />
+              <mxPoint x="-1370" y="1430" />
+              <mxPoint x="-1370" y="1430" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -157,13 +157,13 @@
           <mxGeometry x="-3078" y="1165" width="450" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NJ-oHcCMahYkHnb02j0Y-2" value="HAL_StatusTypeDef USB_SetDevSpeed(USB_OTG_GlobalTypeDef *USBx , uint8_t speed)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1798" y="1531" width="510" height="60" as="geometry" />
+          <mxGeometry x="-1650" y="1524.29" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NJ-oHcCMahYkHnb02j0Y-6" value="HAL_StatusTypeDef USB_FlushTxFifo (USB_OTG_GlobalTypeDef *USBx, uint32_t num )&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1508" y="1610" width="500" height="60" as="geometry" />
+          <mxGeometry x="-1360" y="1603.29" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NJ-oHcCMahYkHnb02j0Y-7" value="HAL_StatusTypeDef USB_FlushRxFifo(USB_OTG_GlobalTypeDef *USBx)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1178" y="1670" width="420" height="60" as="geometry" />
+          <mxGeometry x="-1030" y="1663.29" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NJ-oHcCMahYkHnb02j0Y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.314;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-8" target="60jK4ZE4Ks-oWBBnAJ2H-26">
           <mxGeometry relative="1" as="geometry">
