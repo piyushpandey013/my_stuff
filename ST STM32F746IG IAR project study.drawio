@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="27.1.6" pages="2">
   <diagram name="Init Section" id="B-uzobbl4Og3ccgbKgkS">
-    <mxGraphModel dx="6999" dy="1281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6388" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,8 @@
         <mxCell id="60jK4ZE4Ks-oWBBnAJ2H-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-2" target="60jK4ZE4Ks-oWBBnAJ2H-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="60jK4ZE4Ks-oWBBnAJ2H-2" value="USBD_StatusTypeDef USBD_Init&amp;nbsp; (&amp;nbsp; USBD_HandleTypeDef *pdev,&amp;nbsp; USBD_DescriptorsTypeDef *pdesc,&amp;nbsp; uint8_t id&amp;nbsp; )&lt;div&gt;( &lt;b&gt;usbd_core.c&lt;/b&gt; )&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="85" y="480" width="640" height="40" as="geometry" />
+        <mxCell id="60jK4ZE4Ks-oWBBnAJ2H-2" value="USBD_StatusTypeDef&amp;nbsp; &amp;nbsp; &amp;nbsp; USBD_Init&amp;nbsp; (&amp;nbsp; USBD_HandleTypeDef *pdev,&amp;nbsp; USBD_DescriptorsTypeDef *pdesc,&amp;nbsp; uint8_t id&amp;nbsp; )&lt;div&gt;( &lt;b&gt;usbd_core.c&lt;/b&gt; )&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="75" y="480" width="660" height="40" as="geometry" />
         </mxCell>
         <mxCell id="60jK4ZE4Ks-oWBBnAJ2H-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-6" target="60jK4ZE4Ks-oWBBnAJ2H-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -75,7 +75,7 @@
         <mxCell id="60jK4ZE4Ks-oWBBnAJ2H-15" value="void HAL_PCD_MspInit(PCD_HandleTypeDef *hpcd)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;( usbd_conf.c )&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-3740" y="1150" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NJ-oHcCMahYkHnb02j0Y-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-16" target="NJ-oHcCMahYkHnb02j0Y-1">
+        <mxCell id="NJ-oHcCMahYkHnb02j0Y-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-16" target="NJ-oHcCMahYkHnb02j0Y-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="60jK4ZE4Ks-oWBBnAJ2H-16" value="HAL_StatusTypeDef USB_CoreInit(USB_OTG_GlobalTypeDef *USBx, USB_OTG_CfgTypeDef cfg)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;( stm32f7xx_ll_usb.c )&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -84,7 +84,7 @@
         <mxCell id="60jK4ZE4Ks-oWBBnAJ2H-17" value="HAL_StatusTypeDef USB_SetCurrentMode(USB_OTG_GlobalTypeDef *USBx , USB_OTG_ModeTypeDef mode)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;( stm32f7xx_ll_usb.c )&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-2356" y="1225" width="630" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NJ-oHcCMahYkHnb02j0Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-18" target="NJ-oHcCMahYkHnb02j0Y-2">
+        <mxCell id="NJ-oHcCMahYkHnb02j0Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-18" target="NJ-oHcCMahYkHnb02j0Y-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1370" y="1430" />
@@ -92,12 +92,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NJ-oHcCMahYkHnb02j0Y-4" value="cfg.phy_itface&amp;nbsp; == USB_OTG_ULPI_PHY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NJ-oHcCMahYkHnb02j0Y-3">
+        <mxCell id="NJ-oHcCMahYkHnb02j0Y-4" value="cfg.phy_itface&amp;nbsp; == USB_OTG_ULPI_PHY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NJ-oHcCMahYkHnb02j0Y-3" vertex="1" connectable="0">
           <mxGeometry x="-0.3937" y="1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NJ-oHcCMahYkHnb02j0Y-5" value="cfg.speed == USB_OTG_SPEED_HIGH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NJ-oHcCMahYkHnb02j0Y-3">
+        <mxCell id="NJ-oHcCMahYkHnb02j0Y-5" value="cfg.speed == USB_OTG_SPEED_HIGH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NJ-oHcCMahYkHnb02j0Y-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0231" y="5" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -153,19 +153,19 @@
         <mxCell id="xz1n0p6V88gExpHmgj5U-14" value="__STATIC_INLINE void __NVIC_EnableIRQ(IRQn_Type IRQn)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;core_cm7.h&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-2975" y="2310" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NJ-oHcCMahYkHnb02j0Y-1" value="static HAL_StatusTypeDef USB_CoreReset(USB_OTG_GlobalTypeDef *USBx)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="NJ-oHcCMahYkHnb02j0Y-1" value="static HAL_StatusTypeDef USB_CoreReset(USB_OTG_GlobalTypeDef *USBx)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-3078" y="1165" width="450" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NJ-oHcCMahYkHnb02j0Y-2" value="HAL_StatusTypeDef USB_SetDevSpeed(USB_OTG_GlobalTypeDef *USBx , uint8_t speed)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="NJ-oHcCMahYkHnb02j0Y-2" value="HAL_StatusTypeDef USB_SetDevSpeed(USB_OTG_GlobalTypeDef *USBx , uint8_t speed)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1650" y="1524.29" width="510" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NJ-oHcCMahYkHnb02j0Y-6" value="HAL_StatusTypeDef USB_FlushTxFifo (USB_OTG_GlobalTypeDef *USBx, uint32_t num )&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="NJ-oHcCMahYkHnb02j0Y-6" value="HAL_StatusTypeDef USB_FlushTxFifo (USB_OTG_GlobalTypeDef *USBx, uint32_t num )&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1360" y="1603.29" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NJ-oHcCMahYkHnb02j0Y-7" value="HAL_StatusTypeDef USB_FlushRxFifo(USB_OTG_GlobalTypeDef *USBx)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="NJ-oHcCMahYkHnb02j0Y-7" value="HAL_StatusTypeDef USB_FlushRxFifo(USB_OTG_GlobalTypeDef *USBx)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stm32f7xx_ll_usb.c&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1030" y="1663.29" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NJ-oHcCMahYkHnb02j0Y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.314;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-8" target="60jK4ZE4Ks-oWBBnAJ2H-26">
+        <mxCell id="NJ-oHcCMahYkHnb02j0Y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.314;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="60jK4ZE4Ks-oWBBnAJ2H-8" target="60jK4ZE4Ks-oWBBnAJ2H-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-573" y="1000" />
